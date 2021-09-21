@@ -104,7 +104,8 @@ const  App = () => {
       <GlobalCovidStats 
         world={world}
       />
-      <Footer />
+      <Footer 
+        covid={covid}/>
     </div>
   );
 }

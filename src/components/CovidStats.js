@@ -50,7 +50,6 @@ const CovidStats = ({covid, vaccine, active}) => {
                     <span><FontAwesomeIcon icon={faHeart}  style={{color: 'yellow', fontSize: '24px'}} /></span>
                 </li>
             </ul>
-            <p className='timeStamp'>Last updated: {covid.All?.updated?.toLocaleString("en-US")}</p>
         </div>
     )
 }
